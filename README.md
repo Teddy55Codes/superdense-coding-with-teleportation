@@ -4,7 +4,8 @@ This project exists only for me to be able to say that i teleported ":3".
 
 To quickly show what the script does, let's look at a circuit representation.
 
-![circuit of superdense coding with teleportation](readme-resources/SuperdenseCodingWithTeleportation.gif)
+![circuit of superdense coding with teleportation](readme-resources/SuperdenseCodingWithTeleportation.gif)\
+[view online in quirk](https://algassert.com/quirk#circuit={"cols":[[1,1,"H"],[1,1,"•",1,1,1,"X"],["…","…","…","…","…","…","…"],["Counting2"],["Measure","Measure"],["~msg"],["Chance","Chance"],["~enc"],[1,"•","X"],["•",1,"Z"],[1,1,1,"~send"],[1,1,1,"H"],[1,1,1,"•",1,"X"],[1,1,"•","X"],[1,1,"H"],[1,1,"Measure","Measure"],[1,1,1,"•",1,"X"],[1,1,"•",1,1,"Z"],[1,1,1,1,1,"~dec"],[1,1,1,1,1,"•","X"],[1,1,1,1,1,"H"],[1,1,1,1,1,"Measure","Measure"],[1,1,1,1,1,"~msg"],[1,1,1,1,1,"Chance","Chance"]],"gates":[{"id":"~msg","name":"message","matrix":"{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}"},{"id":"~enc","name":"encode","matrix":"{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}"},{"id":"~send","name":"send","matrix":"{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}"},{"id":"~dec","name":"decode","matrix":"{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}"}]})
 
 If you know a bit about quantum mechanics, this probably looks familiar.
 Because this is superdense coding with teleportation instead of a switch gate.
